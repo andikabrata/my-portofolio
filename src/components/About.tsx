@@ -113,7 +113,7 @@ export function About() {
           </div>
           
           <div className="text-center">
-            <p className="text-3xl md:text-4xl font-bold text-cyan-400 mb-2">22</p>
+            <p className="text-3xl md:text-4xl font-bold text-cyan-400 mb-2">27</p>
             <p className="text-gray-400 text-sm md:text-base">Age</p>
           </div>
           
