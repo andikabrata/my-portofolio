@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --background: #0b0b0b;
+    --foreground: #ffffff;
+    --primary: #ffffff;
+    --secondary: #a3a3a3;
+    --accent: #ff6b35;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+  }
+
+  /* Hide scrollbar but allow scrolling */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer components {
+  .hero-text {
+    @apply text-6xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight;
+  }
+
+  .section-text {
+    @apply text-3xl md:text-5xl font-bold tracking-tight;
+  }
+
+  .subtext {
+    @apply text-lg md:text-xl text-gray-400 font-light tracking-wide;
+  }
+
+  .glow-button {
+    @apply px-8 py-4 bg-white text-black font-semibold rounded-full hover:shadow-lg hover:shadow-white/50 transition-all duration-300 cursor-pointer;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto px-4 md:px-8;
+  }
+}
+
+@layer utilities {
+  .clip-path-polygon {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  }
+
+  .text-stroke {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* Lenis smooth scroll setup */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes countUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
