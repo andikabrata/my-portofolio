@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Wajib untuk static export GitHub Pages
+  output: 'export', // Wajib agar Next.js menghasilkan HTML statis
   images: {
-    unoptimized: true, // Wajib jika menggunakan komponen <Image /> dari Next.js
+    unoptimized: true, // Wajib jika kamu menggunakan komponen <Image /> bawaan Next.js
   },
-  basePath: '/my-portofolio', // Harus diawali dengan garing (/) dan sesuai nama repo
-  assetPrefix: '/my-portofolio', // Tambahkan ini jika CSS/JS kamu tidak termuat (404)
+  basePath: '/my-portofolio', // Sesuaikan dengan nama repository GitHub kamu
+  assetPrefix: '/my-portofolio', // Mengatasi file CSS/JS agar tidak 404 saat di-deploy
 };
 
 export default nextConfig;
