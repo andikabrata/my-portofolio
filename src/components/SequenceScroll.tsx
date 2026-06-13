@@ -28,7 +28,7 @@ export function SequenceScroll({ onScrollProgress }: SequenceScrollProps) {
     for (let i = 1; i <= TOTAL_FRAMES; i++) {
       const img = new Image();
       const frameNum = String(i).padStart(3, '0');
-      img.src = `/sequence/${FRAME_PREFIX}${frameNum}.jpg`;
+      img.src = `/my-portofolio/sequence/${FRAME_PREFIX}${frameNum}.jpg`;
 
       img.onload = () => {
         loadedCount++;
