@@ -88,7 +88,7 @@ export function About() {
 
                 <div>
                   <p className="text-xs text-gray-500 font-semibold tracking-wide mb-1">EMAIL</p>
-                  <p className="text-lg text-orange-500 font-semibold">andikabrato10@gmail.com</p>
+                  <p className="text-lg text-orange-500 font-semibold">andikabrata10@gmail.com</p>
                 </div>
 
                 <div>
