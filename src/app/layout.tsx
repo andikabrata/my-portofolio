@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Outfit } from 'next/font/google';
 import './globals.css';
 import { Preloader } from '@/components/Preloader';
+import { ScrollProgress } from '@/components/ScrollProgress';
 
 const outfit = Outfit({ subsets: ['latin'] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className={`${outfit.className} bg-black text-white overflow-x-hidden antialiased`} suppressHydrationWarning>
+        <ScrollProgress />
         <Preloader />
         {children}
       </body>
