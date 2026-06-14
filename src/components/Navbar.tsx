@@ -89,7 +89,7 @@ export function Navbar() {
 
           {/* View Resume Button - Desktop */}
           <motion.a
-            href="/cv/CV Andika Bratadirja.pdf"
+            href="/my-portofolio/cv/andika-cv.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block px-6 py-2.5 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full text-sm font-semibold text-white hover:bg-white/20 hover:border-white/40 transition-all duration-300 shadow-lg hover:shadow-xl"
@@ -140,7 +140,7 @@ export function Navbar() {
 
               {/* View Resume Button - Mobile */}
               <motion.a
-                href="/cv/CV Andika Bratadirja.pdf"
+                href="/my-portofolio/cv/andika-cv.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block mb-8 px-6 py-3 bg-white/10 backdrop-blur-xl border border-white/20 rounded-full text-center font-semibold text-white hover:bg-white/20 hover:border-white/40 transition-all duration-300"

@@ -90,7 +90,7 @@ export function CTA() {
             </motion.a>
 
             <motion.a
-              href="/cv/CV Andika Bratadirja.pdf"
+              href="/my-portofolio/cv/andika-cv.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 border border-white text-white font-semibold rounded-full hover:bg-white hover:text-black transition-all duration-300"
