@@ -123,7 +123,7 @@ export function CTA() {
             viewport={{ once: true }}
           >
             <p className="text-gray-500 text-sm">
-              © 2024 AndikaBrata. All rights reserved.
+              © 2026 AndikaBrata. All rights reserved.
             </p>
           </motion.div>
 
